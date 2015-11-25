@@ -198,6 +198,7 @@
  *     'host' => 'localhost',
  *     'prefix' => '',
  *   );
+ *
  *   $databases['default']['default'] = array(
  *     'driver' => 'pgsql',
  *     'database' => 'databasename',
@@ -213,6 +214,14 @@
  * @endcode
  */
 $databases = array();
+    $databases['default']['default'] = array(
+      'driver' => 'mysql',
+      'database' => 'superuser',
+      'username' => 'superuser',
+      'password' => 'superuser',
+      'host' => 'localhost',
+      'prefix' => '',
+    );
 
 /**
  * Access control for update.php script.
