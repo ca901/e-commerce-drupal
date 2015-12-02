@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Code for the basic-configuration feature.
+ * Code for the basic configuration feature.
  */
 
 include_once 'basic_configuration.features.inc';
