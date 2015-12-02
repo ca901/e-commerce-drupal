@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the fieldable panels feature.
+ */
+
+include_once 'fieldable_panels.features.inc';

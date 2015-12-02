@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the listado de productos feature.
+ */
+
+include_once 'listado_de_productos.features.inc';

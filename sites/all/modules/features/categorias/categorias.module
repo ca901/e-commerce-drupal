@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the categorias feature.
+ */
+
+include_once 'categorias.features.inc';

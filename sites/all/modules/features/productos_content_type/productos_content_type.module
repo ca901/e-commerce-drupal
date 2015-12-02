@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the productos content type feature.
+ */
+
+include_once 'productos_content_type.features.inc';
