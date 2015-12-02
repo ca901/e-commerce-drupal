@@ -1,0 +1,15 @@
+// cosas que hay que quitar
+
+.footer {
+  background-color: $darkgray;
+  padding: 5%;
+  float: right;
+  width: 100%;
+  p, a {
+      color: $white;
+  }
+}
+
+.footer h2 {
+  display: none;
+}

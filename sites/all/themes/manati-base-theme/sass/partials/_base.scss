@@ -1,0 +1,77 @@
+/*
+ * Rules for base elements
+ */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $body;
+  margin: 0;
+}
+
+br {
+  display: none;
+}
+
+img {
+  width: inherit;
+  max-width: 100%;
+  height: auto;
+}
+
+p, li {
+  @include font-size(14);
+  color: #555;
+  line-height: 1.5;
+}
+
+p, ul, ol, dl {
+  margin: 0 0 0.5em 0;
+}
+
+ul, ol {
+  padding-left: 2em;
+}
+
+p {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+h1,h2,h3 {
+  font-family: $title;
+}
+
+
+// Tablas
+table {
+  width: 100%;
+  border-collapse: collapse;
+  @include font-size(14);
+}
+
+th, td {
+  padding: 0.5em;
+}
+
+.fa {
+  font-size: 2.2rem;
+}
+/*
+ * Rules for base drupal elements
+ */
+
+

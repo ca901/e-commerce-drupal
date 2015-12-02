@@ -1,0 +1,47 @@
+//////////////////////////////  H E A D E R  ////////////////////////////////////
+
+
+.header-content {
+  background-color: #2e2e2e;
+  padding: 7% 0;
+  width: 100%;
+}
+
+.site-name {
+  font-size: 3rem;
+  padding: 2% 4%;
+  a {
+    color: $white;
+  }
+  span {
+    padding: 0 1% ;
+  }
+}
+
+.contextual-links-processed {
+  float: right;
+}
+////////////////////////////// S L I D E R  ////////////////////////////////////
+.field-content img{
+  height: 500px;
+}
+
+.flex-direction-nav a {
+  height: 50px;
+}
+// cosas que quitar //
+#page-title {
+  display: none;
+}
+
+#block-system-main-menu h2 {
+  display: none;
+}
+
+.pane-title {
+  display: none;
+}
+
+.views-label-field-image-i {
+  display: none;
+}

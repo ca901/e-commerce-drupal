@@ -1,0 +1,118 @@
+//
+// General layout rules
+//
+
+/////////////  H E A D E R /////////////////
+
+
+
+//////////////  C A T E G O R I E S /////////////////
+.view-content .item-list ul {
+  @include outer-container;
+
+  .views-row {
+  @include span-columns(2);
+  @include omega(2n);
+  margin-right: 1%;
+  width: 40%;
+  height: 88px;
+  padding: 10%;
+  background-color: #2E2E2E;
+  text-align: center;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    &:hover {
+      background-color: $green;
+    }
+  }
+
+}
+
+.view-categorias-home {
+  text-align: center;
+}
+
+
+
+
+.views-field-title {
+  .field-content a{
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 5%;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.views-field-field-manufacturer {
+  .field-content {
+    margin: 5% 0;
+    text-align: center;
+
+  }
+}
+
+.views-field-field-price {
+  .field-content {
+    background: $green;
+    border-radius: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding: 5%;
+    text-align: center;
+    width: 50%;
+  }
+}
+
+////// Pager home /////
+.item-list .pager {
+  clear: both;
+  text-align: center;
+  background: #EFEDED;
+  margin: 2% 0;
+  padding: 4% 0;
+}
+
+/////////////  L I S T A D O  D E  P R O D U C T O S /////////////////
+
+
+////// Media Queries 768px/////
+@media (min-width:768px) {
+  .node-productos {
+    @include span-columns(2);
+    @include omega(2n);
+    width: 46%;
+    margin-left: 2%;
+  }
+
+  .view-content .item-list .views-row {
+    margin-left: 6.5%;
+  }
+}
+////// Media Queries 1280px/////
+@media (min-width:1280px) {
+  .view-content .item-list .views-row a {
+    font-size: 3rem;
+  }
+
+  .view-content .item-list .views-row .views-field {
+    margin-top: -6%;
+  }
+
+  .view-productos-destacados td {
+    @include span-columns(2);
+    @include omega(4n);
+    width: 17%;
+    margin-left: 5%;
+  }
+}
+/////////////  L I S T A D O  D E  P R O D U C T O S /////////////////
+
+

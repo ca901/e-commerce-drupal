@@ -1,0 +1,25 @@
+//
+// Variables
+//
+
+// Sprite
+$sprite-image: "../images/global-sprite";
+
+// Typography
+$body: 'Roboto', sans-serif;
+$title: 'Lato', sans-serif;
+
+// Colors
+$darkgray: #2E2E2E;//gris oscuro
+$green: #00AB6B;// verde botones
+$lightgray: #F1F1F1;// gris claro
+$white: #FFF;// blanco
+
+// Neat variables
+$max-width: 1200px;
+$grid-colums: 12;
+
+// Breakpoints
+$desktop: 1000px;
+$tablet: 700px;
+$mobile-large: 500px;

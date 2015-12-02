@@ -1,0 +1,15 @@
+////////// Cosas de quitar /////////////
+.field-name-field-name-product .field-label,
+.field-name-field-manufacturer .field-label,
+.field-name-field-image-product .field-label
+{
+  display: none;
+}
+/////////////////////////////////////////
+.field-name-field-name-product .field-item {
+  text-align: center;
+  background: #ccc;
+  width: 100%;
+  font-size: 3rem;
+  padding: 8%;
+}

@@ -1,0 +1,14 @@
+//
+// Mixins
+//
+
+// font-size mixin
+@mixin font-size($size) {
+  font-size: $size + px;
+  font-size: ($size / 10) + rem;
+}
+
+// sprite mixin
+// usage example:
+// @include sprite(red, $x: center, $y: -589px);
+

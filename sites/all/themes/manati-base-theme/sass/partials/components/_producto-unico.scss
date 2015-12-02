@@ -1,0 +1,136 @@
+.field-name-field-price .field-item  {
+  font-size: 3rem;
+  text-align:center;
+  background-color: $green;
+  padding: 2rem;
+  color: $white;
+}
+
+.field-name-field-description-product .field-item {
+  font-size: 1.7rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding:2%;
+}
+
+.field-name-field-name-product .field-item {
+  background: #fff none repeat scroll 0% 0%;
+  width: 100%;
+  font-size: 3.5rem;
+  padding: 6%;
+}
+
+.view-last-comment td {
+  width: 100%;
+}
+
+.comment-by-node-author {
+  border-bottom: 1px solid $darkgray;
+  padding: 5%;
+}
+
+.comment-by-node-author h3 {
+  font-size: 2rem;
+
+  a {
+    color: black;
+  }
+}
+
+.field-name-comment-body .field-item {
+  font-size: 1.8rem;
+}
+
+.view-productos-relacionados .field-content {
+  margin-top: 3%;
+}
+
+.view-productos-relacionados img {
+  height: 150px;
+}
+
+.field-name-field-image-product img {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.view-productos-relacionados td {
+  margin-bottom: 5%;
+}
+
+.comment-by-node-author .submitted {
+  display: none;
+}
+
+#block-views-productos-relacionados-block h2 {
+  display: none;
+}
+
+//////////// M E D I A  Q U E R I E S  7 6 8 P X ///////////////////
+@media (min-width:768px) {
+ .view-mode-full {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+//////////// M E D I A  Q U E R I E S  1 0 2 4 P X ///////////////////
+@media (min-width:1024px) {
+  .field-name-field-image-product img {
+    margin-top: 5%;
+  }
+
+  .field-name-field-price .field-item {
+    width: 47%;
+    border-radius: 31px;
+    margin-left: 27%;
+    margin-top: 3%;
+  }
+
+  .field-name-field-name-product .field-item {
+    font-size: 4.5rem;
+    padding: 0%;
+    margin-top: 2px;
+  }
+
+  .field-name-field-video-product {
+    margin-left: 17%;
+  }
+
+  .comment-form {
+    width: 48%;
+  }
+
+  .view-productos-relacionados td {
+    @include span-columns(3);
+    width: 25%;
+    margin-left: 5%;
+
+  }
+
+}
+//////////// M E D I A  Q U E R I E S  1 2 8 0 P X ///////////////////
+@media (min-width:1024px) {
+  .field-name-field-video-product {
+    margin-left: 25%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
