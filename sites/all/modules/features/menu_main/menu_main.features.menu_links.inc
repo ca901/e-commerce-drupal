@@ -17,9 +17,7 @@ function menu_main_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Categorías',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'main-menu_categoras:<front>',
     ),
     'module' => 'menu',
@@ -37,9 +35,7 @@ function menu_main_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Cómo comprar',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'main-menu_cmo-comprar:<front>',
     ),
     'module' => 'menu',
@@ -57,9 +53,7 @@ function menu_main_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Contacto',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'main-menu_contacto:<front>',
     ),
     'module' => 'menu',
@@ -276,23 +270,6 @@ function menu_main_menu_default_menu_links() {
     'customized' => 0,
     'parent_identifier' => 'management_user-interface:admin/config/user-interface',
   );
-  // Exported menu link: menu-flexslider-example_slider-wthumbnail-slider-views:flexslider-views-example-with-thumbnail-slider
-  $menu_links['menu-flexslider-example_slider-wthumbnail-slider-views:flexslider-views-example-with-thumbnail-slider'] = array(
-    'menu_name' => 'menu-flexslider-example',
-    'link_path' => 'flexslider-views-example-with-thumbnail-slider',
-    'router_path' => 'flexslider-views-example-with-thumbnail-slider',
-    'link_title' => 'slider w/thumbnail slider (Views)',
-    'options' => array(
-      'identifier' => 'menu-flexslider-example_slider-wthumbnail-slider-views:flexslider-views-example-with-thumbnail-slider',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 0,
-  );
 
   // Translatables
   // Included for use with string extractors like potx.
@@ -309,7 +286,6 @@ function menu_main_menu_default_menu_links() {
   t('ONE PLUS');
   t('SAMSUNG');
   t('XIAOMI');
-  t('slider w/thumbnail slider (Views)');
 
   return $menu_links;
 }
